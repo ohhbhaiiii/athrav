@@ -2,22 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My First Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - Resume</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
       color: #333;
     }
-    h1 {
-      color: #2c3e50;
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact {
+      margin-bottom: 20px;
+    }
+    .contact p {
+      margin: 4px 0;
     }
   </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>Welcome to your first HTML page.</p>
+
+<div class="container">
+  <h1>Your Name</h1>
+  <div class="contact">
+    <p>Email: your.email@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>LinkedIn: linkedin.com/in/yourname</p>
+    <p>GitHub: github.com/yourusername</p>
+  </div>
+
+  <div class="section">
+    <h2>Profile</h2>
+    <p>A brief summary about your professional background, skills, and career goals. Keep it short and impactful.</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, JavaScript, Java</li>
+      <li>Web Development: HTML, CSS, React</li>
+      <li>Tools: Git, Docker, VS Code</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Experience</h2>
+    <p><strong>Software Developer</strong> – XYZ Company (2022–Present)</p>
+    <ul>
+      <li>Developed full-stack applications using React and Node.js</li>
+      <li>Collaborated with cross-functional teams in Agile environment</li>
+    </ul>
+
+    <p><strong>Intern</strong> – ABC Corp (Summer 2021)</p>
+    <ul>
+      <li>Built internal tools using Python and Flask</li>
+      <li>Wrote unit tests to improve code coverage by 20%</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <p><strong>Bachelor of Technology in Computer Science</strong></p>
+    <p>University Name, 2019–2023</p>
+  </div>
+</div>
+
 </body>
 </html>
+
